@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>no.met.staging:8d1e5c24-b5c9-4c11-b3fd-f689a34ec4af</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">Meps 2.5 km pressure level parameters from ensemble member 2 2025-02-13T06:00:00Z + 66 hours</mmd:title>
+  <mmd:title xml:lang="no">Meps 2.5 km trykknivåparametere fra ensemble medlem 2 2025-02-13T06:00:00Z + 66 hours</mmd:title>
+  <mmd:abstract xml:lang="en">This file contains pressure level parameters from ensemble member 2. For more information, please visit https://github.com/metno/NWPdocs/wiki</mmd:abstract>
+  <mmd:abstract xml:lang="no">Denne filen inneholder overflateparametere fra ensemblemedlem 2. For mer informasjon, se https://github.com/metno/NWPdocs/wiki </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>METNCS</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2025-02-13T08:12:13Z</mmd:datetime>
+      <mmd:type>Created</mmd:type>
+    </mmd:update>
+  </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2025-02-13T06:00:00Z</mmd:start_date>
+    <mmd:end_date>2025-02-16T00:00:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>climatologyMeteorologyAtmosphere</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="GCMDSK">
+    <mmd:keyword>WEATHER FORECAST</mmd:keyword>
+    <mmd:resource>https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords</mmd:resource>
+    <mmd:separator />
+  </mmd:keywords>
+  <mmd:keywords vocabulary="GEMET">
+    <mmd:keyword>Meteorological geographical features</mmd:keyword>
+    <mmd:keyword>Atmospheric conditions</mmd:keyword>
+    <mmd:resource>https://inspire.ec.europa.eu/theme</mmd:resource>
+    <mmd:separator />
+  </mmd:keywords>
+  <mmd:keywords vocabulary="NORTHEMES">
+    <mmd:keyword>Weather and climate</mmd:keyword>
+    <mmd:resource>https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling</mmd:resource>
+    <mmd:separator />
+  </mmd:keywords>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>75.2</mmd:north>
+      <mmd:south>49.8</mmd:south>
+      <mmd:east>54.2</mmd:east>
+      <mmd:west>-18.1</mmd:west>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:dataset_language>en</mmd:dataset_language>
+  <mmd:operational_status>Operational</mmd:operational_status>
+  <mmd:use_constraint>
+    <mmd:identifier>CC-BY-4.0</mmd:identifier>
+    <mmd:resource>https://spdx.org/licenses/CC-BY-4.0</mmd:resource>
+  </mmd:use_constraint>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Senter for utvikling av værvarslingstjenesten</mmd:name>
+    <mmd:email>post@met.no</mmd:email>
+    <mmd:organisation>Norwegian Meteorological Institute</mmd:organisation>
+  </mmd:personnel>
+  <mmd:data_center>
+    <mmd:data_center_name>
+      <mmd:short_name>MET Norway</mmd:short_name>
+      <mmd:long_name>Norwegian Meteorological Institute</mmd:long_name>
+    </mmd:data_center_name>
+    <mmd:data_center_url>https://data.met.no</mmd:data_center_url>
+  </mmd:data_center>
+  <mmd:data_access>
+    <mmd:type>OPeNDAP</mmd:type>
+    <mmd:description>Open-source Project for a Network Data Access Protocol</mmd:description>
+    <mmd:resource>https://thredds.met.no/thredds/dodsC/meps25epsarchive/2025/02/13/06/meps_mbr002_pl_20250213T06Z.ncml</mmd:resource>
+  </mmd:data_access>
+  <mmd:data_access>
+    <mmd:type>OGC WMS</mmd:type>
+    <mmd:description>OGC Web Mapping Service, URI to GetCapabilities Document.</mmd:description>
+    <mmd:resource>https://fastapi.s-enda-staging.k8s.met.no/api/get_quicklook/2025/02/13/06/meps_mbr002_pl_20250213T06Z.ncml?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</mmd:resource>
+    <mmd:wms_layers>
+        <mmd:wms_layer>air_temperature</mmd:wms_layer>
+    </mmd:wms_layers>
+  </mmd:data_access>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description>Direct download of file</mmd:description>
+    <mmd:resource>https://thredds.met.no/thredds/fileServer/meps25epsarchive/2025/02/13/06/meps_mbr002_pl_20250213T06Z.ncml</mmd:resource>
+  </mmd:data_access>
+  <mmd:related_dataset relation_type="parent">no.met.staging:0f5116ba-43dd-42b8-a0ef-1f49c4b27812</mmd:related_dataset>
+  <mmd:storage_information>
+    <mmd:file_name>meps_mbr002_pl_20250213T06Z.ncml</mmd:file_name>
+    <mmd:file_location>/safe/path/to/replace</mmd:file_location>
+    <mmd:file_format>NetCDF-CF</mmd:file_format>
+    <mmd:file_size unit="MB">0.01</mmd:file_size>
+  </mmd:storage_information>
+  <mmd:related_information>
+    <mmd:type>Dataset landing page</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://data-staging.met.no/dataset/8d1e5c24-b5c9-4c11-b3fd-f689a34ec4af</mmd:resource>
+  </mmd:related_information>
+  <mmd:related_information>
+    <mmd:type>Scientific publication</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://doi.org/10.1002/qj.3525</mmd:resource>
+  </mmd:related_information>
+  <mmd:related_information>
+    <mmd:type>Scientific publication</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://doi.org/10.1175/WAF-D-16-0099.1</mmd:resource>
+  </mmd:related_information>
+  <mmd:related_information>
+    <mmd:type>Users guide</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://github.com/metno/NWPdocs/wiki/MEPS-dataset</mmd:resource>
+  </mmd:related_information>
+  <mmd:spatial_representation>grid</mmd:spatial_representation>
+  <mmd:activity_type>Numerical Simulation</mmd:activity_type>
+  <mmd:dataset_citation>
+    <mmd:author>Senter for utvikling av værvarslingstjenesten</mmd:author>
+    <mmd:publication_date>2025-02-13T08:12:13Z</mmd:publication_date>
+    <mmd:title>Meps 2.5 km pressure level parameters from ensemble member 2 2025-02-13T06:00:00Z + 66 hours</mmd:title>
+    <mmd:publisher>Norwegian Meteorological Institute</mmd:publisher>
+    <mmd:url>https://data.met.no/dataset/8d1e5c24-b5c9-4c11-b3fd-f689a34ec4af</mmd:url>
+  </mmd:dataset_citation>
+</mmd:mmd>

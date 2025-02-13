@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd" xmlns:ns1="http://www.opengis.net/gml">
+  <mmd:metadata_identifier>no.met.staging:27e8f1c1-216a-4c60-9ed9-a55465e0e270</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">NOAA-20 VIIRS Day Night Band(750m spatial resolution) level-1C direct broadcast data in satellite swath, 2025-02-13T08:08:17Z.</mmd:title>
+  <mmd:title xml:lang="no">NOAA-20 VIIRS Dag Natt Bånd(750m romlig oppløsning) level-1C direktesendte satellittdata prosessert i satellittsveip, 2025-02-13T08:08:17Z.</mmd:title>
+  <mmd:abstract xml:lang="en">Direct Broadcast satellite data received at MET NORWAY Oslo from the satellite NOAA-20 instrument VIIRS. Data is from 2025-02-13T08:08:17Z to 2025-02-13T08:19:38Z. This contains the DNB i.e. the day night band at 750m spatial resolution. The data is processed by standard processing software to geolocated and calibrated values in satellite swath in received instrument resolution. The VIIRS instrument consist of the parts: M, I and DNB. The (M)edium resolution bands are 16 channels ranging from the visible parts of the spectrum through the near infrared to the infrared each with a spatial resolution of 750m. The h(I)igh resolution bands are 5 channels ranging from the visible parts of the spectrum through the near infrared to the infrared each with a spatial resolution of 375m. The (D)ay (N)ight (B)and is a broadspectrum visible channel sensitive to both refelected sun light at day and all visible lights at night.</mmd:abstract>
+  <mmd:abstract xml:lang="no">Direktesendte satellittdata mottatt ved Meteorologisk Institutt Oslo fra satellitten NOAA-20 instrument VIIRS. Datene er fra 2025-02-13T08:08:17Z til 2025-02-13T08:19:38Z. Denne filen inneholder DNB, det vil si dag natt kanalen med 750m romlig oppløsning. Satellittdataene er prosessert med standard prosesseringssoftware til geolokaliserte og kalibrerte verdier i satellitsveip i mottatt instrument oppløsning. VIIRS instrumentet består av tre deler: M, I og DNB. (M)edium oppløsning, er 16 kanaler som spenner fra den synlige delen av spektrumet, gjennom den nærinfrarøde til det infrarøde. Hver med en oppløsning på 750m. (I)Høy oppløsning er 5 kanaler tilsvarende M-bånd, men med 375m romlig oppløsning. (D)ag (N)att (B)kanalen er en bredspekter kanal følsom for synlig lys, både reflektert sollys om dagen og alt annet synlig lys om natten.</mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>METNCS</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2025-02-13T08:24:44Z</mmd:datetime>
+      <mmd:type>Created</mmd:type>
+    </mmd:update>
+  </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2025-02-13T08:08:17.646713Z</mmd:start_date>
+    <mmd:end_date>2025-02-13T08:19:38.887311Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>climatologyMeteorologyAtmosphere</mmd:iso_topic_category>
+  <mmd:iso_topic_category>environment</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="GCMDSK">
+    <mmd:keyword>Earth Science &gt; Atmosphere &gt; Atmospheric radiation</mmd:keyword>
+    <mmd:resource>https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords</mmd:resource>
+    <mmd:separator />
+  </mmd:keywords>
+  <mmd:keywords vocabulary="GCMDPROV">
+    <mmd:keyword> Government Agencies-non-US &gt; Norway &gt; NO/MET &gt; Norwegian Meteorological Institute</mmd:keyword>
+    <mmd:resource>https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/providers</mmd:resource>
+    <mmd:separator />
+  </mmd:keywords>
+  <mmd:keywords vocabulary="GCMDLOC">
+    <mmd:keyword>Geographic Region &gt; Northern Hemisphere</mmd:keyword>
+    <mmd:resource>https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/locations</mmd:resource>
+    <mmd:separator />
+  </mmd:keywords>
+  <mmd:keywords vocabulary="GEMET">
+    <mmd:keyword>Meteorological geographical features</mmd:keyword>
+    <mmd:keyword>Atmospheric conditions</mmd:keyword>
+    <mmd:keyword>Oceanographic geographical features</mmd:keyword>
+    <mmd:resource>http://inspire.ec.europa.eu/theme</mmd:resource>
+    <mmd:separator />
+  </mmd:keywords>
+  <mmd:keywords vocabulary="NORTHEMES">
+    <mmd:keyword>Weather and climate</mmd:keyword>
+    <mmd:resource>https://register.geonorge.no/metadata-kodelister/nasjonal-temainndeling</mmd:resource>
+    <mmd:separator />
+  </mmd:keywords>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>89.99703</mmd:north>
+      <mmd:south>47.007282</mmd:south>
+      <mmd:east>179.99959</mmd:east>
+      <mmd:west>-179.99991</mmd:west>
+    </mmd:rectangle>
+    <mmd:polygon>
+      <ns1:Polygon id="polygon" srsName="EPSG:4326">
+        <ns1:exterior>
+          <ns1:LinearRing>
+            <ns1:pos>57.0513 91.0060</ns1:pos>
+            <ns1:pos>57.1398 88.7943</ns1:pos>
+            <ns1:pos>57.1961 86.8789</ns1:pos>
+            <ns1:pos>57.2210 85.2379</ns1:pos>
+            <ns1:pos>57.2252 83.8049</ns1:pos>
+            <ns1:pos>57.2127 82.4857</ns1:pos>
+            <ns1:pos>57.1863 81.1616</ns1:pos>
+            <ns1:pos>57.1455 79.8704</ns1:pos>
+            <ns1:pos>57.0935 78.5855</ns1:pos>
+            <ns1:pos>57.0274 77.3113</ns1:pos>
+            <ns1:pos>56.9498 76.0372</ns1:pos>
+            <ns1:pos>56.8587 74.7800</ns1:pos>
+            <ns1:pos>56.7546 73.5055</ns1:pos>
+            <ns1:pos>56.6363 72.2409</ns1:pos>
+            <ns1:pos>56.5073 70.9902</ns1:pos>
+            <ns1:pos>56.3631 69.7380</ns1:pos>
+            <ns1:pos>56.2067 68.4902</ns1:pos>
+            <ns1:pos>56.0376 67.2456</ns1:pos>
+            <ns1:pos>55.8598 66.0392</ns1:pos>
+            <ns1:pos>55.6707 64.8494</ns1:pos>
+            <ns1:pos>55.4664 63.6534</ns1:pos>
+            <ns1:pos>55.2521 62.4744</ns1:pos>
+            <ns1:pos>55.0239 61.2978</ns1:pos>
+            <ns1:pos>54.7862 60.1383</ns1:pos>
+            <ns1:pos>54.5403 59.0123</ns1:pos>
+            <ns1:pos>54.2841 57.8950</ns1:pos>
+            <ns1:pos>54.0194 56.8055</ns1:pos>
+            <ns1:pos>53.7451 55.7249</ns1:pos>
+            <ns1:pos>53.4540 54.6386</ns1:pos>
+            <ns1:pos>53.1647 53.6011</ns1:pos>
+            <ns1:pos>52.8590 52.5588</ns1:pos>
+            <ns1:pos>52.5434 51.5286</ns1:pos>
+            <ns1:pos>52.2170 50.5001</ns1:pos>
+            <ns1:pos>51.8671 49.4572</ns1:pos>
+            <ns1:pos>51.4553 48.2836</ns1:pos>
+            <ns1:pos>50.9681 46.9623</ns1:pos>
+            <ns1:pos>50.3738 45.4379</ns1:pos>
+            <ns1:pos>49.6164 43.6166</ns1:pos>
+            <ns1:pos>48.5918 41.3370</ns1:pos>
+            <ns1:pos>47.0073 38.1528</ns1:pos>
+            <ns1:pos>47.0073 38.1528</ns1:pos>
+            <ns1:pos>47.8241 37.1450</ns1:pos>
+            <ns1:pos>48.5664 36.1508</ns1:pos>
+            <ns1:pos>49.2965 35.1217</ns1:pos>
+            <ns1:pos>50.0099 34.0765</ns1:pos>
+            <ns1:pos>50.7793 32.8968</ns1:pos>
+            <ns1:pos>51.4691 31.7553</ns1:pos>
+            <ns1:pos>52.1408 30.5940</ns1:pos>
+            <ns1:pos>52.8066 29.3812</ns1:pos>
+            <ns1:pos>53.4573 28.1273</ns1:pos>
+            <ns1:pos>54.1411 26.7463</ns1:pos>
+            <ns1:pos>54.7525 25.3967</ns1:pos>
+            <ns1:pos>55.3463 24.0037</ns1:pos>
+            <ns1:pos>55.9211 22.5913</ns1:pos>
+            <ns1:pos>56.4748 21.1065</ns1:pos>
+            <ns1:pos>57.0591 19.4577</ns1:pos>
+            <ns1:pos>57.5728 17.8814</ns1:pos>
+            <ns1:pos>58.0621 16.2814</ns1:pos>
+            <ns1:pos>58.5290 14.6110</ns1:pos>
+            <ns1:pos>58.9689 12.8925</ns1:pos>
+            <ns1:pos>59.4169 11.0070</ns1:pos>
+            <ns1:pos>59.8420 9.2296</ns1:pos>
+            <ns1:pos>60.2165 7.3858</ns1:pos>
+            <ns1:pos>60.4924 5.4741</ns1:pos>
+            <ns1:pos>60.7804 3.5333</ns1:pos>
+            <ns1:pos>61.0708 1.4011</ns1:pos>
+            <ns1:pos>61.3008 -0.5805</ns1:pos>
+            <ns1:pos>61.4998 -2.6148</ns1:pos>
+            <ns1:pos>61.6658 -4.6741</ns1:pos>
+            <ns1:pos>61.8001 -6.7535</ns1:pos>
+            <ns1:pos>61.9078 -8.9986</ns1:pos>
+            <ns1:pos>61.9573 -11.1087</ns1:pos>
+            <ns1:pos>61.9810 -13.2232</ns1:pos>
+            <ns1:pos>61.9699 -15.3138</ns1:pos>
+            <ns1:pos>61.9264 -17.6004</ns1:pos>
+            <ns1:pos>61.8389 -19.7047</ns1:pos>
+            <ns1:pos>61.7215 -21.7685</ns1:pos>
+            <ns1:pos>61.5670 -23.8362</ns1:pos>
+            <ns1:pos>61.3787 -25.8801</ns1:pos>
+            <ns1:pos>61.1370 -28.0607</ns1:pos>
+            <ns1:pos>61.1370 -28.0607</ns1:pos>
+            <ns1:pos>63.7451 -29.5718</ns1:pos>
+            <ns1:pos>65.5014 -30.7641</ns1:pos>
+            <ns1:pos>66.8444 -31.7957</ns1:pos>
+            <ns1:pos>67.9465 -32.7355</ns1:pos>
+            <ns1:pos>68.8692 -33.5981</ns1:pos>
+            <ns1:pos>69.6835 -34.4255</ns1:pos>
+            <ns1:pos>70.3688 -35.1764</ns1:pos>
+            <ns1:pos>71.0262 -35.9621</ns1:pos>
+            <ns1:pos>71.6747 -36.7875</ns1:pos>
+            <ns1:pos>72.3157 -37.6654</ns1:pos>
+            <ns1:pos>72.9408 -38.5949</ns1:pos>
+            <ns1:pos>73.5818 -39.6192</ns1:pos>
+            <ns1:pos>74.2029 -40.7037</ns1:pos>
+            <ns1:pos>74.8185 -41.8680</ns1:pos>
+            <ns1:pos>75.4344 -43.1487</ns1:pos>
+            <ns1:pos>76.0432 -44.5338</ns1:pos>
+            <ns1:pos>76.6513 -46.0695</ns1:pos>
+            <ns1:pos>77.2522 -47.7506</ns1:pos>
+            <ns1:pos>77.8356 -49.5759</ns1:pos>
+            <ns1:pos>78.4086 -51.5855</ns1:pos>
+            <ns1:pos>78.9577 -53.7651</ns1:pos>
+            <ns1:pos>79.4920 -56.1818</ns1:pos>
+            <ns1:pos>80.0179 -58.9192</ns1:pos>
+            <ns1:pos>80.5173 -61.9332</ns1:pos>
+            <ns1:pos>80.9872 -65.2529</ns1:pos>
+            <ns1:pos>81.4167 -68.8701</ns1:pos>
+            <ns1:pos>81.8130 -72.8784</ns1:pos>
+            <ns1:pos>82.1625 -77.2438</ns1:pos>
+            <ns1:pos>82.4644 -81.9858</ns1:pos>
+            <ns1:pos>82.7107 -87.1114</ns1:pos>
+            <ns1:pos>82.8959 -92.4933</ns1:pos>
+            <ns1:pos>83.0148 -98.1419</ns1:pos>
+            <ns1:pos>83.0664 -103.9411</ns1:pos>
+            <ns1:pos>83.0439 -109.9045</ns1:pos>
+            <ns1:pos>82.9483 -115.7423</ns1:pos>
+            <ns1:pos>82.7627 -121.8432</ns1:pos>
+            <ns1:pos>82.4561 -128.3799</ns1:pos>
+            <ns1:pos>81.9853 -135.2898</ns1:pos>
+            <ns1:pos>81.3230 -142.3136</ns1:pos>
+            <ns1:pos>81.3230 -142.3136</ns1:pos>
+            <ns1:pos>82.1068 -146.6772</ns1:pos>
+            <ns1:pos>82.8223 -151.9330</ns1:pos>
+            <ns1:pos>83.4598 -158.3144</ns1:pos>
+            <ns1:pos>83.9900 -165.9361</ns1:pos>
+            <ns1:pos>84.3870 -174.9555</ns1:pos>
+            <ns1:pos>84.6343 174.8565</ns1:pos>
+            <ns1:pos>84.6896 164.2656</ns1:pos>
+            <ns1:pos>84.5563 153.7559</ns1:pos>
+            <ns1:pos>84.2430 144.0905</ns1:pos>
+            <ns1:pos>83.7843 135.5889</ns1:pos>
+            <ns1:pos>83.2042 128.4695</ns1:pos>
+            <ns1:pos>82.5321 122.5768</ns1:pos>
+            <ns1:pos>81.7961 117.7618</ns1:pos>
+            <ns1:pos>81.0029 113.7648</ns1:pos>
+            <ns1:pos>80.1612 110.4117</ns1:pos>
+            <ns1:pos>79.2975 107.6613</ns1:pos>
+            <ns1:pos>78.4165 105.3668</ns1:pos>
+            <ns1:pos>77.5116 103.4019</ns1:pos>
+            <ns1:pos>76.5913 101.7303</ns1:pos>
+            <ns1:pos>75.6556 100.2833</ns1:pos>
+            <ns1:pos>74.7134 99.0460</ns1:pos>
+            <ns1:pos>73.7621 97.9826</ns1:pos>
+            <ns1:pos>72.8116 97.0550</ns1:pos>
+            <ns1:pos>71.8484 96.2411</ns1:pos>
+            <ns1:pos>70.8700 95.5089</ns1:pos>
+            <ns1:pos>69.9062 94.8640</ns1:pos>
+            <ns1:pos>68.9336 94.2634</ns1:pos>
+            <ns1:pos>67.9542 93.7731</ns1:pos>
+            <ns1:pos>66.9698 93.3722</ns1:pos>
+            <ns1:pos>65.9832 92.9633</ns1:pos>
+            <ns1:pos>64.9959 92.6338</ns1:pos>
+            <ns1:pos>64.0079 92.3263</ns1:pos>
+            <ns1:pos>63.0248 92.0596</ns1:pos>
+            <ns1:pos>62.0344 91.8282</ns1:pos>
+            <ns1:pos>61.0321 91.6004</ns1:pos>
+            <ns1:pos>60.0451 91.4119</ns1:pos>
+            <ns1:pos>59.0485 91.2720</ns1:pos>
+            <ns1:pos>58.0520 91.1325</ns1:pos>
+            <ns1:pos>57.0513 91.0060</ns1:pos>
+          </ns1:LinearRing>
+        </ns1:exterior>
+      </ns1:Polygon>
+    </mmd:polygon>
+  </mmd:geographic_extent>
+  <mmd:dataset_language>en</mmd:dataset_language>
+  <mmd:operational_status>Operational</mmd:operational_status>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:use_constraint>
+    <mmd:identifier>CC-BY-4.0</mmd:identifier>
+    <mmd:resource>https://spdx.org/licenses/CC-BY-4.0</mmd:resource>
+  </mmd:use_constraint>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Norwegian Meteorological Institute</mmd:name>
+    <mmd:email>post@met.no</mmd:email>
+    <mmd:organisation>Norwegian Meteorological Institute</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>DIVISION FOR OBSERVATION QUALITY AND DATA PROCESSING</mmd:name>
+    <mmd:email>post@met.no</mmd:email>
+    <mmd:organisation>Norwegian Meteorological Institute</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Technical contact</mmd:role>
+    <mmd:name>Norwegian Meteorological Institute</mmd:name>
+    <mmd:email>post@met.no</mmd:email>
+    <mmd:organisation>Norwegian Meteorological Institute</mmd:organisation>
+  </mmd:personnel>
+  <mmd:data_center>
+    <mmd:data_center_name>
+      <mmd:short_name>MET Norway</mmd:short_name>
+      <mmd:long_name>Norwegian Meteorological Institute</mmd:long_name>
+    </mmd:data_center_name>
+    <mmd:data_center_url>https://met.no</mmd:data_center_url>
+  </mmd:data_center>
+  <mmd:data_access>
+    <mmd:type>OPeNDAP</mmd:type>
+    <mmd:description>Open-source Project for a Network Data Access Protocol</mmd:description>
+    <mmd:resource>https://thredds.met.no/thredds/dodsC/remotesensingsatellite/polar-swath/2025/02/13/noaa20-viirs-dnb-20250213080817-20250213081938.nc</mmd:resource>
+  </mmd:data_access>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description>Direct download of file</mmd:description>
+    <mmd:resource>https://thredds.met.no/thredds/fileServer/remotesensingsatellite/polar-swath/2025/02/13/noaa20-viirs-dnb-20250213080817-20250213081938.nc</mmd:resource>
+  </mmd:data_access>
+  <mmd:related_dataset relation_type="parent">no.met.staging:c7f8731b-5cfe-4cb5-ac57-168a19a2957b</mmd:related_dataset>
+  <mmd:storage_information>
+    <mmd:file_name>noaa20-viirs-dnb-20250213080817-20250213081938.nc</mmd:file_name>
+    <mmd:file_location>/safe/path/to/replace</mmd:file_location>
+    <mmd:file_format>NetCDF-CF</mmd:file_format>
+    <mmd:file_size unit="MB">355.03</mmd:file_size>
+  </mmd:storage_information>
+  <mmd:related_information>
+    <mmd:type>Dataset landing page</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://data-staging.met.no/dataset/27e8f1c1-216a-4c60-9ed9-a55465e0e270</mmd:resource>
+  </mmd:related_information>
+  <mmd:project>
+    <mmd:short_name>METNCS</mmd:short_name>
+    <mmd:long_name>Governmental core service</mmd:long_name>
+  </mmd:project>
+  <mmd:platform>
+    <mmd:short_name>NOAA-20</mmd:short_name>
+    <mmd:long_name>National Oceanic and Atmospheric Administration - 20</mmd:long_name>
+    <mmd:resource>https://www.wmo-sat.info/oscar/satellites/view/noaa_20</mmd:resource>
+    <mmd:instrument>
+      <mmd:short_name>VIIRS</mmd:short_name>
+      <mmd:long_name>Visible/Infrared Imager Radiometer Suite</mmd:long_name>
+      <mmd:resource>https://www.wmo-sat.info/oscar/instruments/view/viirs</mmd:resource>
+    </mmd:instrument>
+  </mmd:platform>
+  <mmd:spatial_representation>grid</mmd:spatial_representation>
+  <mmd:activity_type>Not available</mmd:activity_type>
+  <mmd:dataset_citation>
+    <mmd:author>Norwegian Meteorological Institute</mmd:author>
+    <mmd:publication_date>2025-02-13T08:24:44Z</mmd:publication_date>
+    <mmd:title>NOAA-20 VIIRS Day Night Band(750m spatial resolution) level-1C direct broadcast data in satellite swath, 2025-02-13T08:08:17Z.</mmd:title>
+  </mmd:dataset_citation>
+<mmd:data_access><mmd:type>OGC WMS</mmd:type><mmd:description>OGC Web Mapping Service, URI to GetCapabilities Document.</mmd:description><mmd:resource>https://ogc-wms-from-netcdf-staging.k8s.met.no/api/get_quicklook/2025/02/13/noaa20-viirs-dnb-20250213080817-20250213081938.nc?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</mmd:resource><mmd:wms_layers><mmd:wms_layer>adaptive_dnb</mmd:wms_layer></mmd:wms_layers></mmd:data_access></mmd:mmd>
