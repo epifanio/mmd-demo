@@ -1,0 +1,286 @@
+<mmd:mmd xmlns:mmd="http://safe/path/to/replace" xmlns:gml="http://safe/path/to/replace">
+  <mmd:metadata_identifier>no.met.staging:714b288c-f2ca-40ae-b244-920b1ac52897</safe/path/to/replace:metadata_identifier>
+  <mmd:title xml:lang="en">Arome-Arctic 2.5Km deterministic 2025-02-13T00:00:00Z + 66 hours</safe/path/to/replace:title>
+  <mmd:title xml:lang="no">Arome-Arctic 2.5Km deterministisk 2025-02-13T00:00:00Z + 66 timer</safe/path/to/replace:title>
+  <mmd:abstract xml:lang="en">This file contains output from Control member. Contains most forecast parameters on surface, model level and pressure levelsThe Norwegian Meteorological Institute has provided forecasts of the weather in the High North for a long time. Our Development Centre for Weather Forecasting has developed a high-resolution model that forecasts the weather in this area for the next three days. The model is called AROME-Arctic and has been running since November 15th, 2015. The geographic resolution is 2.5 kilometres, which is the same as in the model that the Norwegian Meteorological Institute uses to forecast the weather elsewhere in Norway. AROME-Arctic gives a detailed representation of processes on the ground and in the atmosphere. In addition to Svalbard and northern Norway, the model also covers a large area of sea, which is a challenge due to the sparsity of observations. Thus, satellite observations are particularly important for this model. </safe/path/to/replace:abstract>
+  <mmd:abstract xml:lang="no">Denne filen inneholder utdata fra kontrollmedlem. Inneholder de fleste prognoseparametere på overflate, modellnivå og trykknivåerMeteorologisk institutt har lenge levert varsler om været i nordområdene. Vårt utviklingssenter for værvarsling har utviklet en høyoppløselig modell som varsler været i dette området for de neste tre dagene. Modellen heter AROME-Arctic og har vært i drift siden 15. november 2015. Den geografiske oppløsningen er 2,5 kilometer, som er den samme som i modellen Meteorologisk Institutt bruker for å varsle været andre steder i Norge. AROME-Arctic gir en detaljert fremstilling av prosesser på bakken og i atmosfæren. I tillegg til Svalbard og Nord-Norge dekker modellen også et stort havområde, noe som er en utfordring på grunn begrenset mengde in-situ overflateobservasjoner. Derfor er satellittobservasjoner spesielt viktige for denne modellen. </safe/path/to/replace:abstract>
+  <mmd:metadata_status>Active</safe/path/to/replace:metadata_status>
+  <mmd:dataset_production_status>Complete</safe/path/to/replace:dataset_production_status>
+  <mmd:collection>METNCS</safe/path/to/replace:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2025-02-13T03:56:05Z</safe/path/to/replace:datetime>
+      <mmd:type>Created</safe/path/to/replace:type>
+    </safe/path/to/replace:update>
+  </safe/path/to/replace:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2025-02-13T00:00:00Z</safe/path/to/replace:start_date>
+    <mmd:end_date>2025-02-15T18:00:00Z</safe/path/to/replace:end_date>
+  </safe/path/to/replace:temporal_extent>
+  <mmd:iso_topic_category>climatologyMeteorologyAtmosphere</safe/path/to/replace:iso_topic_category>
+  <mmd:keywords vocabulary="GCMDSK">
+    <mmd:keyword>WEATHER FORECAST</safe/path/to/replace:keyword>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+    <mmd:separator></safe/path/to/replace:separator>
+  </safe/path/to/replace:keywords>
+  <mmd:keywords vocabulary="GEMET">
+    <mmd:keyword>Meteorological geographical features</safe/path/to/replace:keyword>
+    <mmd:keyword>Atmospheric conditions</safe/path/to/replace:keyword>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+    <mmd:separator></safe/path/to/replace:separator>
+  </safe/path/to/replace:keywords>
+  <mmd:keywords vocabulary="NORTHEMES">
+    <mmd:keyword>Weather and climate</safe/path/to/replace:keyword>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+    <mmd:separator></safe/path/to/replace:separator>
+  </safe/path/to/replace:keywords>
+  <mmd:keywords vocabulary="CFSTDN">
+    <mmd:keyword>forecast_reference_time</safe/path/to/replace:keyword>
+    <mmd:keyword>air_pressure</safe/path/to/replace:keyword>
+    <mmd:keyword>atmosphere_hybrid_sigma_pressure_coordinate</safe/path/to/replace:keyword>
+    <mmd:keyword>land_area_fraction</safe/path/to/replace:keyword>
+    <mmd:keyword>specific_humidity</safe/path/to/replace:keyword>
+    <mmd:keyword>mass_fraction_of_cloud_condensed_water_in_air</safe/path/to/replace:keyword>
+    <mmd:keyword>mass_fraction_of_cloud_ice_in_air</safe/path/to/replace:keyword>
+    <mmd:keyword>mass_fraction_of_snow_in_air</safe/path/to/replace:keyword>
+    <mmd:keyword>mass_fraction_of_rain_in_air</safe/path/to/replace:keyword>
+    <mmd:keyword>mass_fraction_of_graupel_in_air</safe/path/to/replace:keyword>
+    <mmd:keyword>cloud_area_fraction</safe/path/to/replace:keyword>
+    <mmd:keyword>graupel_fall_amount</safe/path/to/replace:keyword>
+    <mmd:keyword>toa_net_downward_shortwave_flux</safe/path/to/replace:keyword>
+    <mmd:keyword>surface_downwelling_shortwave_flux_in_air</safe/path/to/replace:keyword>
+    <mmd:keyword>toa_outgoing_longwave_flux</safe/path/to/replace:keyword>
+    <mmd:keyword>surface_downwelling_longwave_flux_in_air</safe/path/to/replace:keyword>
+    <mmd:keyword>convective_cloud_area_fraction</safe/path/to/replace:keyword>
+    <mmd:keyword>air_temperature</safe/path/to/replace:keyword>
+    <mmd:keyword>x_wind</safe/path/to/replace:keyword>
+    <mmd:keyword>y_wind</safe/path/to/replace:keyword>
+    <mmd:keyword>upward_air_velocity</safe/path/to/replace:keyword>
+    <mmd:keyword>cloud_base_altitude</safe/path/to/replace:keyword>
+    <mmd:keyword>cloud_top_altitude</safe/path/to/replace:keyword>
+    <mmd:keyword>visibility_in_air</safe/path/to/replace:keyword>
+    <mmd:keyword>brunt_vaisala_frequency_in_air</safe/path/to/replace:keyword>
+    <mmd:keyword>integral_of_surface_downward_latent_heat_flux_wrt_time</safe/path/to/replace:keyword>
+    <mmd:keyword>surface_geopotential</safe/path/to/replace:keyword>
+    <mmd:keyword>liquid_water_content_of_surface_snow</safe/path/to/replace:keyword>
+    <mmd:keyword>integral_of_surface_net_downward_shortwave_flux_wrt_time</safe/path/to/replace:keyword>
+    <mmd:keyword>integral_of_surface_net_downward_longwave_flux_wrt_time</safe/path/to/replace:keyword>
+    <mmd:keyword>integral_of_surface_downward_sensible_heat_flux_wrt_time</safe/path/to/replace:keyword>
+    <mmd:keyword>downward_eastward_momentum_flux_in_air</safe/path/to/replace:keyword>
+    <mmd:keyword>downward_northward_momentum_flux_in_air</safe/path/to/replace:keyword>
+    <mmd:keyword>integral_of_toa_net_downward_shortwave_flux_wrt_time</safe/path/to/replace:keyword>
+    <mmd:keyword>integral_of_toa_outgoing_longwave_flux_wrt_time</safe/path/to/replace:keyword>
+    <mmd:keyword>water_evaporation_amount</safe/path/to/replace:keyword>
+    <mmd:keyword>surface_snow_sublimation_amount</safe/path/to/replace:keyword>
+    <mmd:keyword>relative_humidity</safe/path/to/replace:keyword>
+    <mmd:keyword>integral_of_surface_downwelling_shortwave_flux_in_air_wrt_time</safe/path/to/replace:keyword>
+    <mmd:keyword>integral_of_surface_downwelling_longwave_flux_in_air_wrt_time</safe/path/to/replace:keyword>
+    <mmd:keyword>rainfall_amount</safe/path/to/replace:keyword>
+    <mmd:keyword>snowfall_amount</safe/path/to/replace:keyword>
+    <mmd:keyword>surface_air_pressure</safe/path/to/replace:keyword>
+    <mmd:keyword>tropopause_air_temperature</safe/path/to/replace:keyword>
+    <mmd:keyword>tropopause_air_pressure</safe/path/to/replace:keyword>
+    <mmd:keyword>high_type_cloud_area_fraction</safe/path/to/replace:keyword>
+    <mmd:keyword>medium_type_cloud_area_fraction</safe/path/to/replace:keyword>
+    <mmd:keyword>geopotential</safe/path/to/replace:keyword>
+    <mmd:keyword>specific_convective_available_potential_energy</safe/path/to/replace:keyword>
+    <mmd:keyword>low_type_cloud_area_fraction</safe/path/to/replace:keyword>
+    <mmd:keyword>atmosphere_convective_inhibition</safe/path/to/replace:keyword>
+    <mmd:keyword>atmosphere_lifting_condensation_level_wrt_surface</safe/path/to/replace:keyword>
+    <mmd:keyword>atmosphere_boundary_layer_thickness</safe/path/to/replace:keyword>
+    <mmd:keyword>ertel_potential_vorticity</safe/path/to/replace:keyword>
+    <mmd:keyword>atmosphere_level_of_free_convection_wrt_surface</safe/path/to/replace:keyword>
+    <mmd:keyword>air_pressure_at_sea_level</safe/path/to/replace:keyword>
+    <mmd:keyword>lwe_thickness_of_atmosphere_mass_content_of_water_vapor</safe/path/to/replace:keyword>
+    <mmd:keyword>wind_from_direction</safe/path/to/replace:keyword>
+    <mmd:keyword>wind_speed</safe/path/to/replace:keyword>
+    <mmd:keyword>precipitation_amount</safe/path/to/replace:keyword>
+    <mmd:keyword>wind_speed_of_gust</safe/path/to/replace:keyword>
+    <mmd:keyword>sea_ice_temperature</safe/path/to/replace:keyword>
+    <mmd:keyword>sea_ice_thickness</safe/path/to/replace:keyword>
+    <mmd:keyword>sea_ice_area_fraction</safe/path/to/replace:keyword>
+    <mmd:keyword>sea_surface_temperature</safe/path/to/replace:keyword>
+    <mmd:keyword>soil_temperature</safe/path/to/replace:keyword>
+    <mmd:keyword>snow_density</safe/path/to/replace:keyword>
+    <mmd:keyword>surface_snow_thickness_where_sea_ice</safe/path/to/replace:keyword>
+    <mmd:keyword>surface_snow_area_fraction</safe/path/to/replace:keyword>
+    <mmd:keyword>surface_upward_sensible_heat_flux</safe/path/to/replace:keyword>
+    <mmd:keyword>surface_upward_latent_heat_flux</safe/path/to/replace:keyword>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+    <mmd:separator></safe/path/to/replace:separator>
+  </safe/path/to/replace:keywords>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>88.0</safe/path/to/replace:north>
+      <mmd:south>62.0</safe/path/to/replace:south>
+      <mmd:east>80.0</safe/path/to/replace:east>
+      <mmd:west>-18.0</safe/path/to/replace:west>
+    </safe/path/to/replace:rectangle>
+  </safe/path/to/replace:geographic_extent>
+  <mmd:dataset_language>en</safe/path/to/replace:dataset_language>
+  <mmd:operational_status>Operational</safe/path/to/replace:operational_status>
+  <mmd:use_constraint>
+    <mmd:identifier>CC-BY-4.0</safe/path/to/replace:identifier>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+  </safe/path/to/replace:use_constraint>
+  <mmd:personnel>
+    <mmd:role>Investigator</safe/path/to/replace:role>
+    <mmd:name>Senter for utvikling av værvarslingstjenesten</safe/path/to/replace:name>
+    <mmd:email>post@met.no</safe/path/to/replace:email>
+    <mmd:organisation>Norwegian Meteorological Institute</safe/path/to/replace:organisation>
+  </safe/path/to/replace:personnel>
+  <mmd:data_center>
+    <mmd:data_center_name>
+      <mmd:short_name>MET Norway</safe/path/to/replace:short_name>
+      <mmd:long_name>Norwegian Meteorological Institute</safe/path/to/replace:long_name>
+    </safe/path/to/replace:data_center_name>
+    <mmd:data_center_url>https://safe/path/to/replace</safe/path/to/replace:data_center_url>
+  </safe/path/to/replace:data_center>
+  <mmd:data_access>
+    <mmd:type>OPeNDAP</safe/path/to/replace:type>
+    <mmd:description>Open-source Project for a Network Data Access Protocol</safe/path/to/replace:description>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+  </safe/path/to/replace:data_access>
+  <mmd:data_access>
+    <mmd:type>OGC WMS</safe/path/to/replace:type>
+    <mmd:description>OGC Web Mapping Service, URI to GetCapabilities Document.</safe/path/to/replace:description>
+    <mmd:resource>https://safe/path/to/replace?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</safe/path/to/replace:resource>
+    <mmd:wms_layers>
+        <mmd:wms_layer>pressure</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>hybrid</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>x</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>y</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>land_area_fraction</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>specific_humidity_ml</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>mass_fraction_of_cloud_condensed_water_in_air_ml</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>mass_fraction_of_cloud_ice_in_air_ml</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>mass_fraction_of_snow_in_air_ml</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>mass_fraction_of_rain_in_air_ml</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>mass_fraction_of_graupel_in_air_ml</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>cloud_area_fraction_ml</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>graupelfall_amount</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>toa_net_downward_shortwave_flux</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>surface_downwelling_shortwave_flux_in_air</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>toa_outgoing_longwave_flux</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>surface_downwelling_longwave_flux_in_air</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>convective_cloud_area_fraction</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>air_temperature_ml</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>x_wind_ml</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>y_wind_ml</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>upward_air_velocity_ml</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>cloud_base_altitude</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>cloud_top_altitude</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>cloud_base_altitude_z</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>visibility_in_air</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>brunt_vaisala_frequency_in_air</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>air_temperature_0m</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>surface_geopotential</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>liquid_water_content_of_surface_snow</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>x_wind_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>x_wind_z</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>y_wind_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>y_wind_z</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>air_temperature_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>downward_eastward_momentum_flux_in_air</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>specific_humidity_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>air_temperature_z</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>downward_northward_momentum_flux_in_air</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>mass_fraction_of_cloud_condensed_water_in_air_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>water_evaporation_amount</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>surface_snow_sublimation_amount_acc</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>mass_fraction_of_cloud_ice_in_air_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>relative_humidity_z</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>cloud_area_fraction_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>mass_fraction_of_snow_in_air_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>surface_air_pressure</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>air_temperature_2m</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>mass_fraction_of_rain_in_air_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>tropopause_air_temperature</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>relative_humidity_2m</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>specific_humidity_2m</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>mass_fraction_of_graupel_in_air_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>tropopause_air_pressure</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>x_wind_10m</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>y_wind_10m</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>cloud_area_fraction</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>high_type_cloud_area_fraction</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>medium_type_cloud_area_fraction</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>geopotential_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>specific_convective_available_potential_energy</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>low_type_cloud_area_fraction</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>relative_humidity_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>atmosphere_convective_inhibition</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>air_temperature_max</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>upward_air_velocity_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>lifting_condensation_level</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>air_temperature_min</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>atmosphere_boundary_layer_thickness</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>ertel_potential_vorticity_pl</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>atmosphere_level_of_free_convection</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>rainfall_amount</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>snowfall_amount</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>air_pressure_at_sea_level</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>lwe_thickness_of_atmosphere_mass_content_of_water_vapor</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>wind_direction</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>wind_speed</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>precipitation_amount_acc</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>snowfall_amount_acc</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>wind_speed_of_gust</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_TICE_01</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_TICE_02</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_TICE_03</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_TICE_04</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_ICE_THK</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_SIC</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_SST</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_X001TG1</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_X002TG1</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_X001TG2</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_X002TG2</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_X001WSN_VEG1</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_X002WSN_VEG1</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_X001RSN_VEG1</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_X002RSN_VEG1</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_DSN_T_ICE</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_X001T2M_P</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_X002T2M_P</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_PSN_ISBA</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_WSN_T_ISBA</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_TS</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_T2M</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_H</safe/path/to/replace:wms_layer>
+        <mmd:wms_layer>SFX_LE</safe/path/to/replace:wms_layer>
+    </safe/path/to/replace:wms_layers>
+  </safe/path/to/replace:data_access>
+  <mmd:data_access>
+    <mmd:type>HTTP</safe/path/to/replace:type>
+    <mmd:description>Direct download of file</safe/path/to/replace:description>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+  </safe/path/to/replace:data_access>
+  <mmd:related_dataset relation_type="parent">no.met.staging:806070da-e9f3-4d03-ba1d-26b843961634</safe/path/to/replace:related_dataset>
+  <mmd:storage_information>
+    <mmd:file_name>arome_arctic_det_2_5km_20250213T00Z.nc</safe/path/to/replace:file_name>
+    <mmd:file_location>/safe/path/to/replace/</safe/path/to/replace:file_location>
+    <mmd:file_format>NetCDF-CF</safe/path/to/replace:file_format>
+    <mmd:file_size unit="MB">51813.99</safe/path/to/replace:file_size>
+  </safe/path/to/replace:storage_information>
+  <mmd:related_information>
+    <mmd:type>Dataset landing page</safe/path/to/replace:type>
+    <mmd:description/>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+  </safe/path/to/replace:related_information>
+  <mmd:related_information>
+    <mmd:type>Project home page</safe/path/to/replace:type>
+    <mmd:description></safe/path/to/replace:description>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+  </safe/path/to/replace:related_information>
+  <mmd:spatial_representation>grid</safe/path/to/replace:spatial_representation>
+  <mmd:activity_type>Numerical Simulation</safe/path/to/replace:activity_type>
+  <mmd:dataset_citation>
+    <mmd:author>Senter for utvikling av værvarslingstjenesten</safe/path/to/replace:author>
+    <mmd:publication_date>2025-02-13T03:56:05Z</safe/path/to/replace:publication_date>
+    <mmd:title>Arome-Arctic 2.5Km deterministic 2025-02-13T00:00:00Z + 66 hours</safe/path/to/replace:title>
+    <mmd:publisher>Norwegian Meteorological Institute</safe/path/to/replace:publisher>
+    <mmd:url>https://safe/path/to/replace</safe/path/to/replace:url>
+  </safe/path/to/replace:dataset_citation>
+</safe/path/to/replace:mmd>

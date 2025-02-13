@@ -1,0 +1,268 @@
+<mmd:mmd xmlns:gml="http://safe/path/to/replace" xmlns:mmd="http://safe/path/to/replace">
+  <mmd:metadata_identifier>no.met.staging:0fb5880c-dfd6-4f84-8fd3-0917babad6d6</safe/path/to/replace:metadata_identifier>
+  <mmd:title xml:lang="en">NOAA-21 VIIRS M-Bands(750m spatial resolution) level-1C direct broadcast data in satellite swath, 2025-02-13T04:05:03Z.</safe/path/to/replace:title>
+  <mmd:title xml:lang="no">NOAA-21 VIIRS M-Bånd(750m romlig oppløsning) level-1C direktesendte satellittdata prosessert i satellittsveip, 2025-02-13T04:05:03Z.</safe/path/to/replace:title>
+  <mmd:abstract xml:lang="en">Direct Broadcast satellite data received at MET NORWAY Oslo from the satellite NOAA-21 instrument VIIRS. Data is from 2025-02-13T04:05:03Z to 2025-02-13T04:16:23Z. This contains the M-Bands i.e. bands at 750m spatial resolution. The data is processed by standard processing software to geolocated and calibrated values in satellite swath in received instrument resolution. The VIIRS instrument consist of the parts: M, I and DNB. The (M)edium resolution bands are 16 channels ranging from the visible parts of the spectrum through the near infrared to the infrared each with a spatial resolution of 750m. The h(I)igh resolution bands are 5 channels ranging from the visible parts of the spectrum through the near infrared to the infrared each with a spatial resolution of 375m. The (D)ay (N)ight (B)and is a broadspectrum visible channel sensitive to both refelected sun light at day and all visible lights at night.</safe/path/to/replace:abstract>
+  <mmd:abstract xml:lang="no">Direktesendte satellittdata mottatt ved Meteorologisk Institutt Oslo fra satellitten NOAA-21 instrument VIIRS. Datene er fra 2025-02-13T04:05:03Z til 2025-02-13T04:16:23Z. Denne filen inneholder M-Bånd, det vil si kanaler med 750m romlig oppløsning. Satellittdataene er prosessert med standard prosesseringssoftware til geolokaliserte og kalibrerte verdier i satellitsveip i mottatt instrument oppløsning. VIIRS instrumentet består av tre deler: M, I og DNB. (M)edium oppløsning, er 16 kanaler som spenner fra den synlige delen av spektrumet, gjennom den nærinfrarøde til det infrarøde. Hver med en oppløsning på 750m. (I)Høy oppløsning er 5 kanaler tilsvarende M-bånd, men med 375m romlig oppløsning. (D)ag (N)att (B)kanalen er en bredspekter kanal følsom for synlig lys, både reflektert sollys om dagen og alt annet synlig lys om natten.</safe/path/to/replace:abstract>
+  <mmd:metadata_status>Active</safe/path/to/replace:metadata_status>
+  <mmd:dataset_production_status>Complete</safe/path/to/replace:dataset_production_status>
+  <mmd:collection>METNCS</safe/path/to/replace:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2025-02-13T04:19:14Z</safe/path/to/replace:datetime>
+      <mmd:type>Created</safe/path/to/replace:type>
+    </safe/path/to/replace:update>
+  </safe/path/to/replace:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2025-02-13T04:05:03.050234Z</safe/path/to/replace:start_date>
+    <mmd:end_date>2025-02-13T04:16:23.698096Z</safe/path/to/replace:end_date>
+  </safe/path/to/replace:temporal_extent>
+  <mmd:iso_topic_category>climatologyMeteorologyAtmosphere</safe/path/to/replace:iso_topic_category>
+  <mmd:iso_topic_category>environment</safe/path/to/replace:iso_topic_category>
+  <mmd:keywords vocabulary="GCMDSK">
+    <mmd:keyword>Earth Science &gt; Atmosphere &gt; Atmospheric radiation</safe/path/to/replace:keyword>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+    <mmd:separator />
+  </safe/path/to/replace:keywords>
+  <mmd:keywords vocabulary="GCMDPROV">
+    <mmd:keyword> Government Agencies-non-US &gt; Norway &gt; NO/safe/path/to/replace&gt; Norwegian Meteorological Institute</safe/path/to/replace:keyword>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+    <mmd:separator />
+  </safe/path/to/replace:keywords>
+  <mmd:keywords vocabulary="GCMDLOC">
+    <mmd:keyword>Geographic Region &gt; Northern Hemisphere</safe/path/to/replace:keyword>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+    <mmd:separator />
+  </safe/path/to/replace:keywords>
+  <mmd:keywords vocabulary="GEMET">
+    <mmd:keyword>Meteorological geographical features</safe/path/to/replace:keyword>
+    <mmd:keyword>Atmospheric conditions</safe/path/to/replace:keyword>
+    <mmd:keyword>Oceanographic geographical features</safe/path/to/replace:keyword>
+    <mmd:resource>http://safe/path/to/replace</safe/path/to/replace:resource>
+    <mmd:separator />
+  </safe/path/to/replace:keywords>
+  <mmd:keywords vocabulary="NORTHEMES">
+    <mmd:keyword>Weather and climate</safe/path/to/replace:keyword>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+    <mmd:separator />
+  </safe/path/to/replace:keywords>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>89.99631</safe/path/to/replace:north>
+      <mmd:south>45.912994</safe/path/to/replace:south>
+      <mmd:east>179.99498</safe/path/to/replace:east>
+      <mmd:west>-179.99931</safe/path/to/replace:west>
+    </safe/path/to/replace:rectangle>
+    <mmd:polygon>
+      <gml:Polygon id="polygon" srsName="EPSG:4326">
+        <gml:exterior>
+          <gml:LinearRing>
+            <gml:pos>84.6413 -151.3887</safe/path/to/replace:pos>
+            <gml:pos>85.8597 -158.1860</safe/path/to/replace:pos>
+            <gml:pos>86.7872 -167.5113</safe/path/to/replace:pos>
+            <gml:pos>87.4629 179.5321</safe/path/to/replace:pos>
+            <gml:pos>87.8841 162.3508</safe/path/to/replace:pos>
+            <gml:pos>88.0410 142.6089</safe/path/to/replace:pos>
+            <gml:pos>87.9653 124.1097</safe/path/to/replace:pos>
+            <gml:pos>87.4950 101.3652</safe/path/to/replace:pos>
+            <gml:pos>86.8104 87.8343</safe/path/to/replace:pos>
+            <gml:pos>86.1210 80.2831</safe/path/to/replace:pos>
+            <gml:pos>85.3964 75.1402</safe/path/to/replace:pos>
+            <gml:pos>84.4927 70.7974</safe/path/to/replace:pos>
+            <gml:pos>83.6742 68.0046</safe/path/to/replace:pos>
+            <gml:pos>82.9106 66.0101</safe/path/to/replace:pos>
+            <gml:pos>82.1832 64.4884</safe/path/to/replace:pos>
+            <gml:pos>81.4758 63.2671</safe/path/to/replace:pos>
+            <gml:pos>80.7664 62.2373</safe/path/to/replace:pos>
+            <gml:pos>80.0532 61.3555</safe/path/to/replace:pos>
+            <gml:pos>79.3134 60.5697</safe/path/to/replace:pos>
+            <gml:pos>78.5279 59.8506</safe/path/to/replace:pos>
+            <gml:pos>77.6729 59.1758</safe/path/to/replace:pos>
+            <gml:pos>76.7049 58.5202</safe/path/to/replace:pos>
+            <gml:pos>75.8932 58.0422</safe/path/to/replace:pos>
+            <gml:pos>75.0762 57.6149</safe/path/to/replace:pos>
+            <gml:pos>74.1311 57.1772</safe/path/to/replace:pos>
+            <gml:pos>73.1235 56.7659</safe/path/to/replace:pos>
+            <gml:pos>72.4827 56.5293</safe/path/to/replace:pos>
+            <gml:pos>71.7735 56.2869</safe/path/to/replace:pos>
+            <gml:pos>70.9719 56.0350</safe/path/to/replace:pos>
+            <gml:pos>70.0446 55.7690</safe/path/to/replace:pos>
+            <gml:pos>68.9535 55.4859</safe/path/to/replace:pos>
+            <gml:pos>67.6147 55.1761</safe/path/to/replace:pos>
+            <gml:pos>67.6147 55.1761</safe/path/to/replace:pos>
+            <gml:pos>67.6987 51.7051</safe/path/to/replace:pos>
+            <gml:pos>67.6955 48.1824</safe/path/to/replace:pos>
+            <gml:pos>67.6191 44.7098</safe/path/to/replace:pos>
+            <gml:pos>67.4820 41.5616</safe/path/to/replace:pos>
+            <gml:pos>67.2638 38.1327</safe/path/to/replace:pos>
+            <gml:pos>66.9674 34.8186</safe/path/to/replace:pos>
+            <gml:pos>66.6317 31.8674</safe/path/to/replace:pos>
+            <gml:pos>66.2104 28.7329</safe/path/to/replace:pos>
+            <gml:pos>65.7117 25.6878</safe/path/to/replace:pos>
+            <gml:pos>65.1521 22.7669</safe/path/to/replace:pos>
+            <gml:pos>64.6109 20.2542</safe/path/to/replace:pos>
+            <gml:pos>63.9513 17.5732</safe/path/to/replace:pos>
+            <gml:pos>63.2458 15.0569</safe/path/to/replace:pos>
+            <gml:pos>62.5726 12.8457</safe/path/to/replace:pos>
+            <gml:pos>61.7755 10.5449</safe/path/to/replace:pos>
+            <gml:pos>60.9543 8.3793</safe/path/to/replace:pos>
+            <gml:pos>60.0829 6.3170</safe/path/to/replace:pos>
+            <gml:pos>59.2516 4.5752</safe/path/to/replace:pos>
+            <gml:pos>58.3337 2.7367</safe/path/to/replace:pos>
+            <gml:pos>57.3770 0.9794</safe/path/to/replace:pos>
+            <gml:pos>56.5000 -0.5148</safe/path/to/replace:pos>
+            <gml:pos>55.5015 -2.1091</safe/path/to/replace:pos>
+            <gml:pos>54.4678 -3.5892</safe/path/to/replace:pos>
+            <gml:pos>53.4323 -4.9905</safe/path/to/replace:pos>
+            <gml:pos>52.4712 -6.2172</safe/path/to/replace:pos>
+            <gml:pos>51.4031 -7.4860</safe/path/to/replace:pos>
+            <gml:pos>50.3079 -8.7045</safe/path/to/replace:pos>
+            <gml:pos>49.3064 -9.7640</safe/path/to/replace:pos>
+            <gml:pos>48.1974 -10.8612</safe/path/to/replace:pos>
+            <gml:pos>47.0635 -11.9171</safe/path/to/replace:pos>
+            <gml:pos>45.9130 -12.9283</safe/path/to/replace:pos>
+            <gml:pos>45.9130 -12.9283</safe/path/to/replace:pos>
+            <gml:pos>46.5364 -14.6268</safe/path/to/replace:pos>
+            <gml:pos>47.0253 -16.0392</safe/path/to/replace:pos>
+            <gml:pos>47.4267 -17.2594</safe/path/to/replace:pos>
+            <gml:pos>47.7647 -18.3346</safe/path/to/replace:pos>
+            <gml:pos>48.0549 -19.2964</safe/path/to/replace:pos>
+            <gml:pos>48.3103 -20.1753</safe/path/to/replace:pos>
+            <gml:pos>48.6967 -21.5703</safe/path/to/replace:pos>
+            <gml:pos>49.0456 -22.9065</safe/path/to/replace:pos>
+            <gml:pos>49.3363 -24.0845</safe/path/to/replace:pos>
+            <gml:pos>49.6118 -25.2636</safe/path/to/replace:pos>
+            <gml:pos>49.9247 -26.6896</safe/path/to/replace:pos>
+            <gml:pos>50.1865 -27.9671</safe/path/to/replace:pos>
+            <gml:pos>50.4146 -29.1556</safe/path/to/replace:pos>
+            <gml:pos>50.6184 -30.2887</safe/path/to/replace:pos>
+            <gml:pos>50.8045 -31.3935</safe/path/to/replace:pos>
+            <gml:pos>50.9792 -32.5054</safe/path/to/replace:pos>
+            <gml:pos>51.1431 -33.6278</safe/path/to/replace:pos>
+            <gml:pos>51.3007 -34.7976</safe/path/to/replace:pos>
+            <gml:pos>51.4541 -36.0452</safe/path/to/replace:pos>
+            <gml:pos>51.6050 -37.4102</safe/path/to/replace:pos>
+            <gml:pos>51.7555 -38.9639</safe/path/to/replace:pos>
+            <gml:pos>51.8646 -40.2666</safe/path/to/replace:pos>
+            <gml:pos>51.9601 -41.5956</safe/path/to/replace:pos>
+            <gml:pos>52.0508 -43.1301</safe/path/to/replace:pos>
+            <gml:pos>52.1241 -44.7533</safe/path/to/replace:pos>
+            <gml:pos>52.1591 -45.7973</safe/path/to/replace:pos>
+            <gml:pos>52.1869 -46.9544</safe/path/to/replace:pos>
+            <gml:pos>52.2045 -48.2655</safe/path/to/replace:pos>
+            <gml:pos>52.2065 -49.7763</safe/path/to/replace:pos>
+            <gml:pos>52.1838 -51.5555</safe/path/to/replace:pos>
+            <gml:pos>52.1198 -53.7149</safe/path/to/replace:pos>
+            <gml:pos>52.1198 -53.7149</safe/path/to/replace:pos>
+            <gml:pos>53.4296 -53.7650</safe/path/to/replace:pos>
+            <gml:pos>54.7327 -53.8368</safe/path/to/replace:pos>
+            <gml:pos>56.0204 -53.9297</safe/path/to/replace:pos>
+            <gml:pos>57.1928 -54.0233</safe/path/to/replace:pos>
+            <gml:pos>58.4924 -54.1700</safe/path/to/replace:pos>
+            <gml:pos>59.7761 -54.3480</safe/path/to/replace:pos>
+            <gml:pos>60.9439 -54.5278</safe/path/to/replace:pos>
+            <gml:pos>62.2242 -54.7777</safe/path/to/replace:pos>
+            <gml:pos>63.5166 -55.0777</safe/path/to/replace:pos>
+            <gml:pos>64.8067 -55.4311</safe/path/to/replace:pos>
+            <gml:pos>65.9517 -55.7796</safe/path/to/replace:pos>
+            <gml:pos>67.2367 -56.2508</safe/path/to/replace:pos>
+            <gml:pos>68.5042 -56.7939</safe/path/to/replace:pos>
+            <gml:pos>69.6547 -57.3548</safe/path/to/replace:pos>
+            <gml:pos>70.9256 -58.1205</safe/path/to/replace:pos>
+            <gml:pos>72.1760 -59.0116</safe/path/to/replace:pos>
+            <gml:pos>73.4336 -60.0762</safe/path/to/replace:pos>
+            <gml:pos>74.5574 -61.1969</safe/path/to/replace:pos>
+            <gml:pos>75.7811 -62.6810</safe/path/to/replace:pos>
+            <gml:pos>77.0132 -64.3904</safe/path/to/replace:pos>
+            <gml:pos>78.0855 -66.3264</safe/path/to/replace:pos>
+            <gml:pos>79.2522 -69.1866</safe/path/to/replace:pos>
+            <gml:pos>80.4111 -72.4707</safe/path/to/replace:pos>
+            <gml:pos>81.4841 -76.9156</safe/path/to/replace:pos>
+            <gml:pos>82.4226 -81.8430</safe/path/to/replace:pos>
+            <gml:pos>83.3314 -89.1305</safe/path/to/replace:pos>
+            <gml:pos>84.1215 -98.5373</safe/path/to/replace:pos>
+            <gml:pos>84.6553 -109.1311</safe/path/to/replace:pos>
+            <gml:pos>84.9766 -122.8780</safe/path/to/replace:pos>
+            <gml:pos>84.9674 -137.6813</safe/path/to/replace:pos>
+            <gml:pos>84.6413 -151.3887</safe/path/to/replace:pos>
+          </safe/path/to/replace:LinearRing>
+        </safe/path/to/replace:exterior>
+      </safe/path/to/replace:Polygon>
+    </safe/path/to/replace:polygon>
+  </safe/path/to/replace:geographic_extent>
+  <mmd:dataset_language>en</safe/path/to/replace:dataset_language>
+  <mmd:operational_status>Operational</safe/path/to/replace:operational_status>
+  <mmd:access_constraint>Open</safe/path/to/replace:access_constraint>
+  <mmd:use_constraint>
+    <mmd:identifier>CC-BY-4.0</safe/path/to/replace:identifier>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+  </safe/path/to/replace:use_constraint>
+  <mmd:personnel>
+    <mmd:role>Investigator</safe/path/to/replace:role>
+    <mmd:name>Norwegian Meteorological Institute</safe/path/to/replace:name>
+    <mmd:email>post@met.no</safe/path/to/replace:email>
+    <mmd:organisation>Norwegian Meteorological Institute</safe/path/to/replace:organisation>
+  </safe/path/to/replace:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</safe/path/to/replace:role>
+    <mmd:name>DIVISION FOR OBSERVATION QUALITY AND DATA PROCESSING</safe/path/to/replace:name>
+    <mmd:email>post@met.no</safe/path/to/replace:email>
+    <mmd:organisation>Norwegian Meteorological Institute</safe/path/to/replace:organisation>
+  </safe/path/to/replace:personnel>
+  <mmd:personnel>
+    <mmd:role>Technical contact</safe/path/to/replace:role>
+    <mmd:name>Norwegian Meteorological Institute</safe/path/to/replace:name>
+    <mmd:email>post@met.no</safe/path/to/replace:email>
+    <mmd:organisation>Norwegian Meteorological Institute</safe/path/to/replace:organisation>
+  </safe/path/to/replace:personnel>
+  <mmd:data_center>
+    <mmd:data_center_name>
+      <mmd:short_name>MET Norway</safe/path/to/replace:short_name>
+      <mmd:long_name>Norwegian Meteorological Institute</safe/path/to/replace:long_name>
+    </safe/path/to/replace:data_center_name>
+    <mmd:data_center_url>https://safe/path/to/replace</safe/path/to/replace:data_center_url>
+  </safe/path/to/replace:data_center>
+  <mmd:data_access>
+    <mmd:type>OPeNDAP</safe/path/to/replace:type>
+    <mmd:description>Open-source Project for a Network Data Access Protocol</safe/path/to/replace:description>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+  </safe/path/to/replace:data_access>
+  <mmd:data_access>
+    <mmd:type>HTTP</safe/path/to/replace:type>
+    <mmd:description>Direct download of file</safe/path/to/replace:description>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+  </safe/path/to/replace:data_access>
+  <mmd:related_dataset relation_type="parent">no.met.staging:e2228b20-e62f-436b-aa17-7716acfe8e3a</safe/path/to/replace:related_dataset>
+  <mmd:storage_information>
+    <mmd:file_name>noaa21-viirs-mband-20250213040503-20250213041623.nc</safe/path/to/replace:file_name>
+    <mmd:file_location>/safe/path/to/replace</safe/path/to/replace:file_location>
+    <mmd:file_format>NetCDF-CF</safe/path/to/replace:file_format>
+    <mmd:file_size unit="MB">413.37</safe/path/to/replace:file_size>
+  </safe/path/to/replace:storage_information>
+  <mmd:related_information>
+    <mmd:type>Dataset landing page</safe/path/to/replace:type>
+    <mmd:description/>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+  </safe/path/to/replace:related_information>
+  <mmd:project>
+    <mmd:short_name>METNCS</safe/path/to/replace:short_name>
+    <mmd:long_name>Governmental core service</safe/path/to/replace:long_name>
+  </safe/path/to/replace:project>
+  <mmd:platform>
+    <mmd:short_name>NOAA-21</safe/path/to/replace:short_name>
+    <mmd:long_name>National Oceanic and Atmospheric Administration - 21</safe/path/to/replace:long_name>
+    <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+    <mmd:instrument>
+      <mmd:short_name>VIIRS</safe/path/to/replace:short_name>
+      <mmd:long_name>Visible/safe/path/to/replace</safe/path/to/replace:long_name>
+      <mmd:resource>https://safe/path/to/replace</safe/path/to/replace:resource>
+    </safe/path/to/replace:instrument>
+  </safe/path/to/replace:platform>
+  <mmd:spatial_representation>grid</safe/path/to/replace:spatial_representation>
+  <mmd:activity_type>Not available</safe/path/to/replace:activity_type>
+  <mmd:dataset_citation>
+    <mmd:author>Norwegian Meteorological Institute</safe/path/to/replace:author>
+    <mmd:publication_date>2025-02-13T04:19:14Z</safe/path/to/replace:publication_date>
+    <mmd:title>NOAA-21 VIIRS M-Bands(750m spatial resolution) level-1C direct broadcast data in satellite swath, 2025-02-13T04:05:03Z.</safe/path/to/replace:title>
+  </safe/path/to/replace:dataset_citation>
+<mmd:data_access><mmd:type>OGC WMS</safe/path/to/replace:type><mmd:description>OGC Web Mapping Service, URI to GetCapabilities Document.</safe/path/to/replace:description><mmd:resource>https://safe/path/to/replace?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</safe/path/to/replace:resource><mmd:wms_layers><mmd:wms_layer>overview</safe/path/to/replace:wms_layer><mmd:wms_layer>ir_window_channel</safe/path/to/replace:wms_layer></safe/path/to/replace:wms_layers></safe/path/to/replace:data_access></safe/path/to/replace:mmd>
